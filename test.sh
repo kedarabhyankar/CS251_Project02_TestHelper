@@ -12,6 +12,12 @@ if [ "$1" = "delete" ]; then
   diff -w ../deleteExpected.txt out.txt
 fi
 
+if [ "$1" = "getVal" ]; then
+  echo "Running getVal!"
+  java RedBlackBST ../getVal.txt > out.txt
+  diff -w ../getValExpected.txt out.txt
+fi
+
 if [ "$1" = "robustness" ]; then
   echo "Running Robustness!"
   java RedBlackBST ../test.txt > out.txt
