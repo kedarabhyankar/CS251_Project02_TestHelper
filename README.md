@@ -6,18 +6,6 @@ system, or it should be installed on most *nix-based systems by default, which i
 
 You'll want to make sure that your directory structure is set up as follows:
 
-insert.txt
-insertExpected.txt
-search.txt
-searchExpected.txt
-delete.txt
-deleteExpected.txt
-rank.txt
-rankExpected.txt
-src
-  RedBlackBST.java
-  test.sh
-
 ```
 project 
 │   insert.txt
